@@ -15,10 +15,10 @@ This files contains some simple analysis of the SPOOKY data.  The goal is to rem
 First we want to install and load libraries we need along the way.  Note that the following code is completely reproducible -- you don't need to add any code on your own to make it run.
 
 ```{r, message = F, warning = F}
-packages.used=c("ggplot2", "dplyr", "tidytext", "wordcloud", "stringr", "ggridges")
+packages.used <- c("ggplot2", "dplyr", "tidytext", "wordcloud", "stringr", "ggridges")
 
 # check packages that need to be installed.
-packages.needed = setdiff(packages.used, intersect(installed.packages()[,1], packages.used))
+packages.needed <- setdiff(packages.used, intersect(installed.packages()[,1], packages.used))
 
 # install additional packages
 if(length(packages.needed) > 0) {
