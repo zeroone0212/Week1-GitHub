@@ -77,7 +77,12 @@ We first use the `unnest_tokens()` function to drop all punctuation and transfor
 
 ```{r}
 spooky_wrd <- unnest_tokens(spooky, word, text)
+head(spooky_wrd)
+
+head(stop_words)
+tail(stop_words)
 spooky_wrd <- anti_join(spooky_wrd, stop_words, by = "word")
+head(spooky_wrd)
 ````
 
 ### Data Visualization
