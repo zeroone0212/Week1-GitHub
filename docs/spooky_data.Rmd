@@ -1,5 +1,5 @@
 ---
-title: "Some Simple SPOOKY Data Analysis"
+title: "Some Simple SPOOKY Data Analysis Copied"
 author: "Cindy Rush"
 date: "January 22, 2018"
 output:
